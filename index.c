@@ -7,6 +7,9 @@ int main() {
 
     printf("Hello git\n");
 
-    printf("Ты как %d бля", res);
+    int res1 = a + b * b;
+
+    printf("Ты как %d\n", res);
+    printf("Ты словно %d\n", res1);
     return 0;
 }
